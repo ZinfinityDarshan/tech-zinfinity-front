@@ -21,3 +21,14 @@
     background-color: black;
     color: white;
 }
+.float{
+	position:fixed;
+	
+	bottom:40px;
+    right:40px;	
+    z-index:100;
+
+}
+// .my-float{
+// 	margin-top:22px;
+// }

@@ -1,0 +1,43 @@
+// body{
+//     background-color: black;
+// }
+
+mat-chip{
+    font-size: 20px;
+    font-family: 'Geo', sans-serif;
+     color: black;
+}
+.section-1 {
+   background-color: whitesmoke;
+   color: black;
+ 
+   border-left: 5px solid greenyellow;
+ display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  align-items: center;
+  margin: 20px;
+}
+span{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+     color: black;
+}
+
+ li{
+    font-size: 20px;
+    font-family: 'Geo', sans-serif;
+}
+.section-2 {
+ margin: 20px;  
+}
+.mat-tree-node {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    flex: 1;
+    color: black;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+
