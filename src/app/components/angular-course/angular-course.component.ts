@@ -8,7 +8,7 @@ interface FoodNode {
 }
 const TREE_DATA: FoodNode[] = [
   {
-    name: 'Spring-Boot',
+    name: 'Course Introduction',
     children: [
       {name: 'Apple'},
       {name: 'Banana'},
@@ -16,7 +16,7 @@ const TREE_DATA: FoodNode[] = [
     ]
   }, 
   {
-    name: 'Angular',
+    name: 'What is Angular',
     children: [
       {
         name: 'Green',
@@ -34,7 +34,7 @@ const TREE_DATA: FoodNode[] = [
     ]
   },
   {
-    name: 'Java',
+    name: 'Understanding Browser behavior and Angular Introduction',
     children: [
       {
         name: 'Green',
@@ -51,6 +51,127 @@ const TREE_DATA: FoodNode[] = [
       },
     ]
   },
+  {
+    name: 'What is TypeScript',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  }, 
+  {
+    name: 'Angular UI Building Blocks',
+    children: [
+      {name: 'CLI usage and Architecture'},
+      {name: ''},
+      {name: ''},
+    ]
+  }, 
+  {
+    name: 'ngModule',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  }, 
+  {
+    name: 'Creating Angular Projects',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Component and Template Rendering in Angular',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },  
+  {
+    name: 'Two way Databinding and Modular Forms ',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  }, 
+  {
+    name: 'Reactive Forms and Data Handling',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Directive',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },  
+  {
+    name: 'Using Services Dependancy Injection',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+    {
+    name: 'Data Sharing between two Component',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Understanding Observables and Observer in Angular',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },   
+  {
+    name: 'Angular Material basic building',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  }, 
+  {
+    name: 'Pipes to Transfer Output',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  }, 
+  {
+    name: 'Authentication Route Guards  ',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  }, 
+  {
+    name: 'HTTPClient and HTTPInterceptor,REST API',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  }, 
+  
 ];
 interface ExampleFlatNode {
   expandable: boolean;

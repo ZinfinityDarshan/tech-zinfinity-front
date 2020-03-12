@@ -14,7 +14,7 @@ interface FoodNode {
 
 const TREE_DATA: FoodNode[] = [
   {
-    name: 'Spring-Boot',
+    name: 'Why and Where to be used',
     children: [
       {name: 'Apple'},
       {name: 'Banana'},
@@ -22,7 +22,7 @@ const TREE_DATA: FoodNode[] = [
     ]
   }, 
   {
-    name: 'Angular',
+    name: 'Object Oriented Programming Needed?',
     children: [
       {
         name: 'Green',
@@ -40,7 +40,7 @@ const TREE_DATA: FoodNode[] = [
     ]
   },
   {
-    name: 'Java',
+    name: 'Object, Classes, Methods',
     children: [
       {
         name: 'Green',
@@ -57,6 +57,123 @@ const TREE_DATA: FoodNode[] = [
       },
     ]
   },
+  {
+    name: 'How to Store? Data Types',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Methods',
+    children: [
+      {name: 'Overriding'},
+      {name: 'Overloading'},
+      {name: 'Constructor'},
+      {name: 'keywords'}
+    ]
+  },
+  {
+    name: 'Collect Data',
+    children: [
+      {name: 'Arrays'},
+      {name: 'ArryList'},
+      {name: 'Set'},
+      {name: 'Map'}
+    ]
+  },
+  {
+    name: 'Damn..Crashed.! Let Handle (Errors and Exceptions)',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Wow ! speed up program - MultithreAding ',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Just An Arrow => lamda Function',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Get Out of Loop - Stream API',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Connect All - REST API',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Play With Files - Files Nio',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Loggers in Java',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Github Version Control Tool',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Build Realtime Application - Java-Spring-Mongodb',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Building and Devloping Java app',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'DigitalOcean and Heroku Deployment',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+
+  
+
 ];
 
 /** Flat node with expandable and level information */

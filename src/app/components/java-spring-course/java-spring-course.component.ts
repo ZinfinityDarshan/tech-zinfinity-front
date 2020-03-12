@@ -8,7 +8,7 @@ interface FoodNode {
 }
 const TREE_DATA: FoodNode[] = [
   {
-    name: 'Spring-Boot',
+    name: 'Java 8 concepts ',
     children: [
       {name: 'Apple'},
       {name: 'Banana'},
@@ -16,39 +16,91 @@ const TREE_DATA: FoodNode[] = [
     ]
   }, 
   {
-    name: 'Angular',
+    name: 'Reactive Programming',
+    children: [
+      {
+        name: 'Rx Java(basic)',
+        children: [
+          {name: 'Broccoli'},
+          {name: 'Brussels sprouts'},
+        ]
+      }, 
+    ]
+  },
+  {
+    name: 'Dependancy Injection and Inversion of control',
     children: [
       {
         name: 'Green',
         children: [
           {name: 'Broccoli'},
           {name: 'Brussels sprouts'},
-        ]
-      }, {
-        name: 'Orange',
-        children: [
-          {name: 'Pumpkins'},
-          {name: 'Carrots'},
         ]
       },
     ]
   },
   {
-    name: 'Java',
+    name: 'Building Spring-Boot Application',
     children: [
-      {
-        name: 'Green',
-        children: [
-          {name: 'Broccoli'},
-          {name: 'Brussels sprouts'},
-        ]
-      }, {
-        name: 'Orange',
-        children: [
-          {name: 'Pumpkins'},
-          {name: 'Carrots'},
-        ]
-      },
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Rest Annotation with Document Type(Mongodb)',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Exception Handler',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Data Accessing with Respository Pattern',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Actuator Concepts',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Spring Security JWT Configurarion ',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Swagger API/Open API ',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
+    ]
+  },
+  {
+    name: 'Cloud Hosting - Digital Ocean and Heroku',
+    children: [
+      {name: 'Apple'},
+      {name: 'Banana'},
+      {name: 'Fruit loops'},
     ]
   },
 ];
