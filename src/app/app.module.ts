@@ -9,6 +9,8 @@ import { EnquireComponent } from './modal/enquire/enquire.component';
 import { JavaCourseComponent } from './components/java-course/java-course.component';
 import { AngularCourseComponent } from './components/angular-course/angular-course.component';
 import { JavaSpringCourseComponent } from './components/java-spring-course/java-spring-course.component';
+import { FacultyComponent } from './components/faculty/faculty.component';
+import { BatchesComponent } from './components/batches/batches.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { JavaSpringCourseComponent } from './components/java-spring-course/java-
     EnquireComponent,
     JavaCourseComponent,
     AngularCourseComponent,
-    JavaSpringCourseComponent
+    JavaSpringCourseComponent,
+    FacultyComponent,
+    BatchesComponent
   ],
   imports: [
     BrowserModule,
