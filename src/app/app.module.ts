@@ -11,6 +11,7 @@ import { AngularCourseComponent } from './components/angular-course/angular-cour
 import { JavaSpringCourseComponent } from './components/java-spring-course/java-spring-course.component';
 import { FacultyComponent } from './components/faculty/faculty.component';
 import { BatchesComponent } from './components/batches/batches.component';
+import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { BatchesComponent } from './components/batches/batches.component';
     AngularCourseComponent,
     JavaSpringCourseComponent,
     FacultyComponent,
-    BatchesComponent
+    BatchesComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,

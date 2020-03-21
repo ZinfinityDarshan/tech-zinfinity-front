@@ -17,20 +17,25 @@ flex-direction: row; justify-content: space-between; z-index:5; position : inher
   </div>
   <div style="font-family: 'Geo', sans-serif; font-size: 70px;">
     <span style=" padding-top: 80%; border-bottom: 5px solid white; color: white;">
-      Tech Zinfinity
+      Tech Zinfi
     </span>
   </div>
 </mat-toolbar>
 <mat-toolbar style="display: flex; justify-content: flex-end;">
     <button mat-flat-button style="background-color: #00ffff; color: black; 
       height: 35px; width: 150px; font-family: 'Geo', sans-serif !important; 
+      font-size: 22px; margin-right: 5px;"(click)="openBottomSheet()"
+      > <i class="fa fa-share-square" aria-hidden="true"></i>&nbsp;&nbsp;Social</button>
+      
+      <button mat-flat-button style="background-color: #00ffff; color: black; 
+      height: 35px; width: 150px; font-family: 'Geo', sans-serif !important; 
       font-size: 22px; margin-right: 5px;"routerLink="/faculty"
-      >Faculty</button>
+      ><i class="fa fa-users" aria-hidden="true">&nbsp;&nbsp;Faculty</i></button>
 
     <button mat-flat-button style="background-color: #00ffff; color: black; 
       height: 35px; width: 150px; font-family: 'Geo', sans-serif !important; 
       font-size: 21px;" routerLink="/batches"
-      >Batches</button>
+      ><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;Batches</button>
 
 </mat-toolbar>
 
@@ -47,7 +52,7 @@ flex-direction: row; justify-content: space-between; z-index:5; position : inher
 
     
 </div>
->
+
 <div style="height: 15%;">
   <mat-toolbar color="accent" style="height: 50%; display: flex; justify-content: center;">
     <span style="font-family: 'Geo', sans-serif; font-size: 40px; color: black;">

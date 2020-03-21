@@ -5,6 +5,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FacultyComponent } from './components/faculty/faculty.component';
 import { BatchesComponent } from './components/batches/batches.component';
+import { SocialComponent } from './components/social/social.component';
 
 const routes: Routes = [
   {path:'', redirectTo: '/course/java', pathMatch:'full'},
@@ -15,7 +16,8 @@ const routes: Routes = [
     {path:'angular', component:AngularCourseComponent}
   ]},
   {path:'faculty', component:FacultyComponent},
-  {path:'batches', component:BatchesComponent}
+  {path:'batches', component:BatchesComponent},
+  {path:'socail', component:SocialComponent}
   
 ];
 

@@ -11,16 +11,19 @@ import {MatInputModule} from '@angular/material/input';
 import {MatCardModule} from '@angular/material/card';
 import {MatTreeModule} from '@angular/material/tree';
 import {MatChipsModule} from '@angular/material/chips';
+import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
     MatToolbarModule, MatDividerModule,MatTabsModule, MatButtonModule,
-    MatRippleModule, MatIconModule, MatDialogModule, MatInputModule, MatCardModule, MatTreeModule, MatChipsModule
+    MatRippleModule, MatIconModule, MatDialogModule, MatInputModule, MatCardModule, MatTreeModule, MatChipsModule,
+    MatBottomSheetModule
   ],
   exports:[
-    MatToolbarModule, MatDividerModule, MatTabsModule, MatButtonModule,
+    MatToolbarModule, MatDividerModule, MatTabsModule, MatButtonModule,MatBottomSheetModule,
     MatRippleModule, MatIconModule, MatDialogModule, MatInputModule, MatCardModule, MatTreeModule, MatChipsModule
   ]
 })
