@@ -8,20 +8,21 @@ mat-chip{
      color: black;
 }
 .section-1 {
-   background-color: whitesmoke;
-   color: black;
- 
-   border-left: 5px solid greenyellow;
- display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  align-items: center;
-  margin: 20px;
-}
-span{
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-     color: black;
-}
+    background-color: whitesmoke;
+    color: black;
+  
+    border-left: 5px solid greenyellow;
+  display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+   align-items: center;
+   margin: 20px;
+ }
+ .span-1{
+     font-size: 20px;
+     font-family: Arial, Helvetica, sans-serif;
+      color: black;
+    //   font-weight: bold;
+ }
 
  li{
     font-size: 20px;
