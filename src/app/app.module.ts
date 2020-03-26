@@ -12,6 +12,7 @@ import { JavaSpringCourseComponent } from './components/java-spring-course/java-
 import { FacultyComponent } from './components/faculty/faculty.component';
 import { BatchesComponent } from './components/batches/batches.component';
 import { SocialComponent } from './components/social/social.component';
+import { GallaryComponent } from './components/gallary/gallary.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { SocialComponent } from './components/social/social.component';
     JavaSpringCourseComponent,
     FacultyComponent,
     BatchesComponent,
-    SocialComponent
+    SocialComponent,
+    GallaryComponent
   ],
   imports: [
     BrowserModule,

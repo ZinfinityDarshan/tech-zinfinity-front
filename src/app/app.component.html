@@ -34,8 +34,13 @@ flex-direction: row; justify-content: space-between; z-index:5; position : inher
 
     <button mat-flat-button style="background-color: #00ffff; color: black; 
       height: 35px; width: 150px; font-family: 'Geo', sans-serif !important; 
-      font-size: 21px;" routerLink="/batches"
+      font-size: 21px; margin-right: 5px;" routerLink="/batches"
       ><i class="fa fa-calendar" aria-hidden="true"></i>&nbsp;&nbsp;Batches</button>
+
+      <button mat-flat-button style="background-color: #00ffff; color: black; 
+      height: 35px; width: 150px; font-family: 'Geo', sans-serif !important; 
+      font-size: 21px;" routerLink="/gallary"
+      ><i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp;&nbsp;Photos</button>
 
 </mat-toolbar>
 
@@ -96,8 +101,13 @@ flex-direction: row; justify-content: space-between; z-index:5; position : inher
 <div style="padding-left: 20%; padding-right:15%; margin-top: 15px;">
   <router-outlet></router-outlet>
 </div>
-<div>
-  <mat-toolbar style="height: 200px;">
+<div >
+  <mat-toolbar style="height: 150px; width:100%; justify-content: center;">
     Footer
   </mat-toolbar>
+ 
+
+  
+
+
 </div>
