@@ -14,6 +14,14 @@ body { margin: 0; font-family:'Geo', sans-serif !important;
   
 }
 }
+#content-desktop {display: block;}
+#content-mobile { display: none;}
 
+@media screen and (max-width: 768px){
+    #content-desktop {display: none;}
+#content-mobile { display: block;}
+}
 
- 
+ .outline{
+     outline:hidden;
+ }

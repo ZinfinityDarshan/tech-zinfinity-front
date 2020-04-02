@@ -12,6 +12,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatTreeModule} from '@angular/material/tree';
 import {MatChipsModule} from '@angular/material/chips';
 import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
+import {MatMenuModule} from '@angular/material/menu';
 
 
 @NgModule({
@@ -20,10 +21,10 @@ import {MatBottomSheetModule} from '@angular/material/bottom-sheet';
     CommonModule,
     MatToolbarModule, MatDividerModule,MatTabsModule, MatButtonModule,
     MatRippleModule, MatIconModule, MatDialogModule, MatInputModule, MatCardModule, MatTreeModule, MatChipsModule,
-    MatBottomSheetModule
+    MatBottomSheetModule,MatMenuModule
   ],
   exports:[
-    MatToolbarModule, MatDividerModule, MatTabsModule, MatButtonModule,MatBottomSheetModule,
+    MatToolbarModule, MatDividerModule, MatTabsModule, MatButtonModule,MatBottomSheetModule,MatMenuModule,
     MatRippleModule, MatIconModule, MatDialogModule, MatInputModule, MatCardModule, MatTreeModule, MatChipsModule
   ]
 })

@@ -13,6 +13,7 @@ import { FacultyComponent } from './components/faculty/faculty.component';
 import { BatchesComponent } from './components/batches/batches.component';
 import { SocialComponent } from './components/social/social.component';
 import { GallaryComponent } from './components/gallary/gallary.component';
+import { HeaderComponent } from './MobileDeviceComponents/header/header.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { GallaryComponent } from './components/gallary/gallary.component';
     FacultyComponent,
     BatchesComponent,
     SocialComponent,
-    GallaryComponent
+    GallaryComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

@@ -3,30 +3,44 @@
 // }
 
 mat-chip{
-    font-size: 20px;
-    font-family: 'Geo', sans-serif;
-     color: black;
-}
+    background-color:transparent !important;
+    color: black !important;
+    border: 2px solid black;
+    font-size: large;
+    
+  }
+  mat-chip:hover{
+    background-color:black !important;
+    color:white !important;
+    border: 2px solid white;
+    cursor: pointer;
+  }
 .section-1 {
     background-color: whitesmoke;
     color: black;
   
-    border-left: 5px solid greenyellow;
+   border-left: 5px solid black;
   display: grid;
    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
    align-items: center;
    margin: 20px;
+   
  }
  .span-1{
-     font-size: 20px;
-     font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+    //   font-family: Arial, Helvetica, sans-serif;
       color: black;
-      font-weight: bold;
+    //   font-weight: bold;
+    //   margin-top: 100px;
  }
 
+ 
+
  li{
+
     font-size: 20px;
-    font-family: 'Geo', sans-serif;
+    margin-top: 10px;
+    // font-family: 'Geo', sans-serif;
 }
 .section-2 {
  margin: 20px;  
@@ -40,5 +54,4 @@ mat-chip{
     overflow: hidden;
     word-wrap: break-word;
 }
-
 

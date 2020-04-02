@@ -1,0 +1,43 @@
+.header{
+ position: fixed;
+ background-color:#212121;
+ width: 100%;
+ z-index: 100;
+ 
+  // position: relative;
+
+}
+.example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .mat-toolbar{
+      width: 100%;
+  }
+  .profile-image{
+    height: 30px;
+    width: 30px;
+    border-radius: 35%;
+}
+.button-hover:hover{
+    background-color: black !important;
+    color: white !important;
+}
+:host ::ng-deep mat-raised-button{
+  height: 100%;
+  width: 100%;
+  font-family: 'Geo', sans-serif !important;
+}
+
+.float{
+    position:fixed;
+    
+    bottom:20px;
+    right:15px; 
+    z-index:100;
+
+}
