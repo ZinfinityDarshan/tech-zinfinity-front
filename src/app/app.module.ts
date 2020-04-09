@@ -14,6 +14,10 @@ import { BatchesComponent } from './components/batches/batches.component';
 import { SocialComponent } from './components/social/social.component';
 import { GallaryComponent } from './components/gallary/gallary.component';
 import { HeaderComponent } from './MobileDeviceComponents/header/header.component';
+import { AngularFirestoreModule } from "@angular/fire/firestore";
+import { AngularFireModule } from "@angular/fire/";
+import { AngularFireStorageModule } from "@angular/fire/storage";
+import { environment } from "../environments/environment";
 
 @NgModule({
   declarations: [
@@ -32,7 +36,10 @@ import { HeaderComponent } from './MobileDeviceComponents/header/header.componen
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+    AngularFirestoreModule,
+    AngularFireStorageModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

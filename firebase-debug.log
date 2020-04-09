@@ -1,0 +1,40 @@
+[debug] [2020-04-08T11:10:04.826Z] ----------------------------------------------------------------------
+[debug] [2020-04-08T11:10:04.829Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Prabhat\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-04-08T11:10:04.830Z] CLI Version:   7.15.0
+[debug] [2020-04-08T11:10:04.830Z] Platform:      win32
+[debug] [2020-04-08T11:10:04.830Z] Node Version:  v12.13.0
+[debug] [2020-04-08T11:10:04.831Z] Time:          Wed Apr 08 2020 16:40:04 GMT+0530 (India Standard Time)
+[debug] [2020-04-08T11:10:04.831Z] ----------------------------------------------------------------------
+[debug] [2020-04-08T11:10:04.831Z] 
+[debug] [2020-04-08T11:10:04.841Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-08T11:10:04.841Z] > authorizing via signed-in user
+[debug] [2020-04-08T11:10:04.842Z] [iam] checking project techzinfifront-dc52a for permissions ["firebase.projects.get"]
+[debug] [2020-04-08T11:10:04.844Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/techzinfifront-dc52a:testIamPermissions  
+
+[debug] [2020-04-08T11:10:06.796Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-08T11:10:06.798Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/techzinfifront-dc52a  
+ 
+[debug] [2020-04-08T11:10:07.432Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Prabhat\Documents\GitHub\tech-zinfinity-front'...
+[info] 
+[debug] [2020-04-08T11:10:07.441Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/techzinfifront-dc52a/webApps/-/config  
+ 
+[debug] [2020-04-08T11:10:08.712Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/portfolio-d
+[info] +  hosting: Local server: http://localhost:5000
+[warn] !  Your requested "node" version "8" doesn't match your global version "12"
+[info] +  functions: functions emulator started at http://localhost:5001
+[info] i  functions: Watching "C:\Users\Prabhat\Documents\GitHub\tech-zinfinity-front\functions" for Cloud Functions...
+[debug] [2020-04-08T11:10:09.479Z] [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-04-08T11:10:09.479Z] [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-04-08T11:10:09.479Z] [worker-pool] submitWork(triggerId=)
+[debug] [2020-04-08T11:10:09.480Z] [worker-~diagnostic~-8efc6e15-e0ff-4f8c-8bef-fa3a6c792c64]: Assigning socketPath: \\?\pipe\C:\Users\Prabhat\Documents\GitHub\tech-zinfinity-front\functions\12588
+[debug] [2020-04-08T11:10:09.481Z] [worker-~diagnostic~-8efc6e15-e0ff-4f8c-8bef-fa3a6c792c64]: BUSY
+[debug] [2020-04-08T11:10:10.020Z] [runtime-status] [12588] Functions runtime initialized. {"cwd":"C:\\Users\\Prabhat\\Documents\\GitHub\\tech-zinfinity-front\\functions","node_version":"12.13.0"}
+[debug] [2020-04-08T11:10:10.020Z] [runtime-status] [12588] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true,"pubsub_emulator":true}
+[debug] [2020-04-08T11:10:10.024Z] [runtime-status] [12588] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.10.0","resolution":"C:\\Users\\Prabhat\\Documents\\GitHub\\tech-zinfinity-front\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-04-08T11:10:10.026Z] [runtime-status] [12588] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"C:\\Users\\Prabhat\\Documents\\GitHub\\tech-zinfinity-front\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-04-08T11:10:10.027Z] [runtime-status] [12588] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.6.0","resolution":"C:\\Users\\Prabhat\\Documents\\GitHub\\tech-zinfinity-front\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[info] +  functions[helloWorld]: http function initialized (http://localhost:5001/techzinfifront-dc52a/us-central1/helloWorld).
+[debug] [2020-04-08T11:10:10.093Z] [worker-~diagnostic~-8efc6e15-e0ff-4f8c-8bef-fa3a6c792c64]: IDLE

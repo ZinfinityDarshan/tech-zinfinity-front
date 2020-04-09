@@ -1,8 +1,9 @@
 .header{
  position: fixed;
  background-color:#212121;
- width: 100%;
+ width: 100% !important;
  z-index: 100;
+ 
  
   // position: relative;
 
@@ -15,12 +16,13 @@
     flex: 1 1 auto;
   }
   
-  .mat-toolbar{
-      width: 100%;
-  }
+  // .mat-toolbar{
+  //     width: 100%;
+  //     padding-top: 0px;
+  // }
   .profile-image{
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     border-radius: 35%;
 }
 .button-hover:hover{

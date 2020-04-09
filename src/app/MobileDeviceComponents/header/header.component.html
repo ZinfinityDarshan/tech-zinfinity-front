@@ -1,42 +1,45 @@
 <div id="content-mobile">
+  <div class="header" style="width:100%">
 <mat-toolbar>
-      <div class="header"style="width: 100%; display: flex; flex-direction: row; justify-content: start;" >
-      <span style=" width: 90%; color: white; font-family:'Geo', sans-serif; padding-left: 10px;text-decoration: underline;">
+      <div style="width: 100%; display: flex; flex-direction: row; justify-content: start;" >
+      <span style=" width: 90%; color: white; font-family:'Geo', sans-serif; padding-left: 10px;text-decoration: underline; font-weight: bold; font-size: 20px;">
         Tech Zinfi
       </span>
-      <button mat-icon-button [matMenuTriggerFor]="menu"class="btnicon"aria-label="Example icon-button with a menu" style="width: 10%;display: flex;flex-direction: row;overflow: hidden;justify-content: start;">
+      <button mat-icon-button [matMenuTriggerFor]="menu"class="btnicon"aria-label="Example icon-button with a menu" style="width: 10%;display: flex;flex-direction: row;overflow: hidden;justify-content: end;">
         <mat-icon class="btnicon">more_vert</mat-icon>
       </button>
       <mat-menu #menu="matMenu" >
         <button mat-menu-item (click)="openBottomSheet()" >
           <i class="fa fa-share-square"
           aria-hidden="true"></i>
-          <span style="font-size:16px">&nbsp;&nbsp; Social</span>
+          <span  style="font-size:16px ;font-family: 'Geo', sans-serif;">&nbsp;&nbsp; Social</span>
         </button>
         <button mat-menu-item routerLink="/faculty" >
           <i class="fa fa-users"
       aria-hidden="true"></i>
-          <span style="font-size:16px">&nbsp;&nbsp;Faculty</span>
+          <span style="font-size:16px;font-family: 'Geo', sans-serif;">&nbsp;&nbsp;Faculty</span>
         </button>
         <button mat-menu-item routerLink="/batches">
           <i class="fa fa-calendar"
       aria-hidden="true"></i>
-            <span style="font-size:16px">&nbsp;&nbsp;Batches</span>
+            <span style="font-size:16px;font-family: 'Geo', sans-serif;">&nbsp;&nbsp;Batches</span>
         </button>
         <button mat-menu-item routerLink="/gallary">
           <i class="fa fa-picture-o"
       aria-hidden="true"></i>
           
-          <span style="font-size:16px">&nbsp;&nbsp;Photos</span>
+          <span style="font-size:16px; font-family: 'Geo', sans-serif;">&nbsp;&nbsp;Photos</span>
         </button>
       </mat-menu>
     </div>
       
-    
+  </mat-toolbar>
+  </div>
+  <div style="padding-top: 56px;">
 
-    <mat-toolbar-row style="margin-top: 35px;">
+    <mat-toolbar>
       <div style="display: flex; 
-      flex-direction: row; justify-content: space-around; width: 100%; margin-top: 15px;">
+      flex-direction: row; justify-content: space-around; width: 100%;">
       <div >
         <img src="../assets/images/angular.png" class="profile-image" alt="Avatar" alt="avator">
       </div>
@@ -51,12 +54,13 @@
       </div>
     </div>
      
-    </mat-toolbar-row>
+    </mat-toolbar>
+  </div>
     
-    
+  
     
 
-  </mat-toolbar>
+
 
   <div class="float">
 
@@ -73,13 +77,13 @@
   
 <div style="height: 15%;">
   <mat-toolbar color="accent" style="height: 50%; width:100%; display: flex; justify-content: center;">
-    <span style="font-family: 'Geo', sans-serif; font-size: 14px; color: black;">
+    <span style="font-family: 'Geo', sans-serif; font-size: 14px; color: black; font-weight:bold;">
       Completed graduation; Still unaware of Indutrial Knowledge ?
     </span>
   </mat-toolbar>
   <mat-toolbar color="accent" style="height: 50%; width: 100%; display: flex; 
-  justify-content: center; font-size: 13px; ">
-    <span style="font-family: 'Geo', sans-serif; color: black;">
+  justify-content: center; ">
+    <span style="font-family: 'Geo', sans-serif; color: black;  font-size: 14px; font-weight: bold;">
       We have a Soltion for you ..!
     </span>
   </mat-toolbar>
