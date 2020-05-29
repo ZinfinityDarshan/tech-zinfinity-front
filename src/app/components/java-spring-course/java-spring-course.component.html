@@ -1,5 +1,5 @@
 <mat-card class= "a" style="background-color:transparent; color: whitesmoke; width: 100%;">
-    <main class="wrapper">
+    <div class="animated bounceInLeft delay-0.5s wrapper">
         <div>
             <section class="section-1 ">
                 <ul>
@@ -24,7 +24,7 @@
                             <span><b>Fees:</b> ₹25000</span><br><br>
                             <span><b>Location:</b> Mulund(W),Mumbai - 400080</span>
                         
-         </div>
+                    </div>
                       </ul>
             </section>
 
@@ -34,7 +34,7 @@
             <div>
                 <ul>
                 </ul>
-                <ul style="height: auto;  background-color: whitesmoke;color: black;border-left: 5px solid black;">
+                <ul style="height: auto; background-color: whitesmoke;color: black;border-left: 5px solid black;">
                     <h2 style="font-family: 'Geo', sans-serif; color: black; font-size: 45px; padding-top: 10px;">What Will I Learn</h2>
                     <li>Student can learn complete picture about new features introduced as the part of Java</li>
                     <li> lambada Expression </li>
@@ -46,17 +46,17 @@
                 <ul
                     style="height: auto; background-color: whitesmoke;margin-top:40px; border-left: 5px solid black;">
                     <h2 style="color: black; font-size: 45px; font-family:'Geo', sans-serif ;padding-top: 10px;">Syllabus</h2>
-                    <mat-tree style="background-color:gainsboro; color:black " [dataSource]="dataSource"
+                    <mat-tree style="background-color:gainsboro;  color:black " [dataSource]="dataSource"
                         [treeControl]="treeControl">
                         <!-- This is the tree node template for leaf nodes -->
-                        <mat-tree-node style="color: black;" *matTreeNodeDef="let node" matTreeNodePadding>
+                        <mat-tree-node style="color: black; " *matTreeNodeDef="let node" matTreeNodePadding>
                             <!-- use a disabled button to provide padding for tree leaf -->
                             <button mat-icon-button disabled></button>
                             {{node.name}}
                         </mat-tree-node>
                         <!-- This is the tree node template for expandable nodes -->
                         <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding>
-                            <button  mat-icon-button matTreeNodeToggle [attr.aria-label]="'toggle ' + node.name">
+                            <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'toggle ' + node.name">
                                 <mat-icon class="mat-icon-rtl-mirror">
                                     {{treeControl.isExpanded(node) ? 'expand_more' : 'chevron_right'}}
                                 </mat-icon>
@@ -67,9 +67,7 @@
                 </ul>
             </div>
         </section>
-    </main>
+    </div>
 
 
 
-
-</mat-card>

@@ -1,5 +1,5 @@
 <mat-card class= "a" style="background-color:transparent; color: whitesmoke; width: 100%;">
-    <main class="wrapper">
+    <div class="animated bounceInLeft delay-0.5s wrapper">
         <div>
             <section class="section-1 ">
                 <ul>
@@ -7,7 +7,7 @@
                         <span style="font-family: 'Geo', sans-serif; color: black;">Company</span>
                         </div>
                         
-                        <div><mat-chip-list aria-label="Fish selection">
+                        <div ><mat-chip-list aria-label="Fish selection">
                             <mat-chip>Microsoft</mat-chip>
                             <mat-chip>Google</mat-chip>
                             <mat-chip>Udemy</mat-chip>
@@ -24,7 +24,7 @@
                             <span><b>Fees:</b> ₹25000</span><br><br>
                             <span><b>Location:</b> Mulund(W),Mumbai - 400080</span>
                         
-         </div>
+                    </div>
                       </ul>
             </section>
 
@@ -49,7 +49,7 @@
                     <mat-tree style="background-color:gainsboro;  color:black " [dataSource]="dataSource"
                         [treeControl]="treeControl">
                         <!-- This is the tree node template for leaf nodes -->
-                        <mat-tree-node style="color: black;" *matTreeNodeDef="let node" matTreeNodePadding>
+                        <mat-tree-node style="color: black; " *matTreeNodeDef="let node" matTreeNodePadding>
                             <!-- use a disabled button to provide padding for tree leaf -->
                             <button mat-icon-button disabled></button>
                             {{node.name}}
@@ -67,9 +67,7 @@
                 </ul>
             </div>
         </section>
-    </main>
+    </div>
 
 
 
-
-</mat-card>
