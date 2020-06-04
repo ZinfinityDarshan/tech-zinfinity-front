@@ -1,119 +1,95 @@
-<div id="content-mobile">
-  <div class="header" style="width:100%">
-<mat-toolbar>
-      <div style="width: 100%; display: flex; flex-direction: row; justify-content: start;" >
-      <span style=" width: 90%; color: white; font-family:'Geo', sans-serif; padding-left: 10px;text-decoration: underline; font-weight: bold; font-size: 20px;">
-        Tech Zinfi
-      </span>
-      <button mat-icon-button [matMenuTriggerFor]="menu"class="btnicon"aria-label="Example icon-button with a menu" style="width: 10%;display: flex;flex-direction: row;overflow: hidden;justify-content: end;">
-        <mat-icon class="btnicon">more_vert</mat-icon>
-      </button>
-      <mat-menu #menu="matMenu" >
-        <button mat-menu-item (click)="openBottomSheet()" >
-          <i class="fa fa-share-square"
-          aria-hidden="true"></i>
-          <span  style="font-size:16px ;font-family: 'Geo', sans-serif;">&nbsp;&nbsp; Social</span>
-        </button>
-        <button mat-menu-item routerLink="/faculty" >
-          <i class="fa fa-users"
-      aria-hidden="true"></i>
-          <span style="font-size:16px;font-family: 'Geo', sans-serif;">&nbsp;&nbsp;Faculty</span>
-        </button>
-        <button mat-menu-item routerLink="/batches">
-          <i class="fa fa-calendar"
-      aria-hidden="true"></i>
-            <span style="font-size:16px;font-family: 'Geo', sans-serif;">&nbsp;&nbsp;Batches</span>
-        </button>
-        <button mat-menu-item routerLink="/gallary">
-          <i class="fa fa-picture-o"
-      aria-hidden="true"></i>
-          
-          <span style="font-size:16px; font-family: 'Geo', sans-serif;">&nbsp;&nbsp;Photos</span>
-        </button>
-      </mat-menu>
-    </div>
-      
-  </mat-toolbar>
-  </div>
-  <div style="padding-top: 56px;">
+<div id="content-mobile" style="padding-top: 60px;">
+    <!-- <div class="header" style="width:100%">
+      <mat-toolbar>
+        <div style="width: 100%; display: flex; flex-direction: row; justify-content: start; height: auto;">
+          <span class="header_name">
+            Tech Zinfi
+          </span>
+          <button mat-icon-button [matMenuTriggerFor]="menu" class="btnicon" aria-label="Example icon-button with a menu"
+            style="width: 10%;display: flex;flex-direction: row;overflow: hidden;justify-content: end;">
+            <mat-icon class="btnicon">more_vert</mat-icon>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item (click)="openBottomSheet()">
+              <i class="fa fa-share-square" aria-hidden="true"></i>
+              <span class="menu_btn">&nbsp;&nbsp; Social</span>
+            </button>
+            <button mat-menu-item routerLink="/faculty">
+              <i class="fa fa-users" aria-hidden="true"></i>
+              <span class="menu_btn">&nbsp;&nbsp;Faculty</span>
+            </button>
+            <button mat-menu-item routerLink="/batches">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+              <span class="menu_btn">&nbsp;&nbsp;Batches</span>
+            </button>
+            <button mat-menu-item routerLink="/gallary">
+              <i class="fa fa-picture-o" aria-hidden="true"></i>
 
-    <mat-toolbar>
-      <div style="display: flex; 
-      flex-direction: row; justify-content: space-around; width: 100%;">
-      <div >
-        <img src="../assets/images/angular.png" class="profile-image" alt="Avatar" alt="avator">
+              <span class="menu_btn">&nbsp;&nbsp;Photos</span>
+            </button>
+          </mat-menu>
+        </div> -->
+
+    <!-- </mat-toolbar> -->
+  <!-- </div> -->
+  <!-- <div style="padding-top: 56px;">
+
+    <mat-toolbar style="height: auto;">
+      <div class="logo_img">
+        <div>
+          <img src="../assets/images/angular.png" class="profile-image" alt="Avatar" alt="avator">
+        </div>
+        <div>
+          <img src="../assets/images/java.png" class="profile-image" alt="Avatar" alt="avator">
+        </div>
+        <div>
+          <img src="../assets/images/mongo.png" class="profile-image" alt="Avatar" alt="avator">
+        </div>
+        <div>
+          <img src="../assets/images/spring-3-logo-png-transparent.png" class="profile-image" alt="Avatar" alt="avator">
+        </div>
       </div>
-      <div>
-        <img src="../assets/images/java.png" class="profile-image" alt="Avatar" alt="avator">
-      </div>
-      <div>
-        <img src="../assets/images/mongo.png" class="profile-image" alt="Avatar" alt="avator">
-      </div>
-      <div>
-        <img src="../assets/images/spring-3-logo-png-transparent.png" class="profile-image" alt="Avatar" alt="avator">
-      </div>
-    </div>
-     
+
     </mat-toolbar>
-  </div>
-    
-  
-    
-
-
+  </div> -->
 
   <div class="float">
 
-  
-      
-      <mat-icon class="my-float" (click)="openEnquiryDialog()" style=" margin-left : 14px; float:right; color: rgba(58, 245, 139, 0.966); font-size: 30px; 
+    <mat-icon class="my-float" (click)="openEnquiryDialog()" style=" margin-left : 14px; float:right; color: rgba(58, 245, 139, 0.966); font-size: 30px; 
       padding-left:-6px;">live_help
-      </mat-icon>
-      
-  
-  
-  
+    </mat-icon>
   </div>
-  
-<div style="height: 15%;">
-  <mat-toolbar color="accent" style="height: 50%; width:100%; display: flex; justify-content: center;">
-    <span style="font-family: 'Geo', sans-serif; font-size: 14px; color: black; font-weight:bold;">
-      Completed graduation; Still unaware of Indutrial Knowledge ?
-    </span>
-  </mat-toolbar>
-  <mat-toolbar color="accent" style="height: 50%; width: 100%; display: flex; 
+
+  <div style="height: 15%;">
+    <mat-toolbar color="accent" style="height: 50%; width:100%; display: flex; justify-content: center;">
+      <span class="tag_line">
+        Completed graduation; Still unaware of Indutrial Knowledge ?
+      </span>
+    </mat-toolbar>
+    <mat-toolbar color="accent" style="height: 50%; width: 100%; display: flex; 
   justify-content: center; ">
-    <span style="font-family: 'Geo', sans-serif; color: black;  font-size: 14px; font-weight: bold;">
-      We have a Soltion for you ..!
-    </span>
-  </mat-toolbar>
-</div>
-<div style="width: 100%; display: flex; flex-direction: row; justify-content: start;">
+      <span class="tag_line">
+        We have a Soltion for you ..!
+      </span>
+    </mat-toolbar>
+  </div>
+  <div style="width: 100%; display: flex; flex-direction: row; justify-content: start;">
 
-  <mat-toolbar style="width: 20%;height: 50px; background-color: rgba(45, 248, 208, 0.721);" class="mat-elevation-z1">
-    <span style="color: black; font-family: 'Geo', sans-serif; 
-      font-size: 13px; " >Syllabus</span>
-  </mat-toolbar>
+    <mat-toolbar style="width: 20%;height: auto; background-color: rgba(45, 248, 208, 0.721);" class="mat-elevation-z1">
+      <span class="syllabus">Syllabus</span>
+    </mat-toolbar>
 
-  <mat-toolbar style="width: 80%; height: 50px; display: flex; flex-direction: row;
+    <mat-toolbar style="width: 80%; height: auto; display: flex; flex-direction: row;
      padding: 4px; background-color: rgb(16, 150, 123); 
      box-shadow: 0 2px 5px 0 black, 0 2px 5px 10px 0 black;" class="mat-elevation-z1">
-    <button mat-flat-button style="background-color: white; color: black; 
-      height: 40px; width:270px; font-family: 'Geo', sans-serif !important; 
-      font-size: 10px;border: 2px inset black;" class="mat-elevation-z8 button-hover" 
-      routerLink="/course/java">Core Java 8+</button>
+      <button mat-flat-button class="mat-elevation-z8 course_btn" routerLink="/course/java">Core Java 8+</button>
 
-    <button mat-flat-button style="background-color: white; color: black; 
-      height: 40px; width: 270px; font-family: 'Geo', sans-serif !important; 
-      font-size: 10px;border: 2px inset black;margin-left:3px;" class="mat-elevation-z8 button-hover"
-      routerLink="/course/java-springboot">Java-Spring Boot</button>
+      <button mat-flat-button class="mat-elevation-z8 course_btn" routerLink="/course/java-springboot">Java-Spring
+        Boot</button>
 
-    <button mat-flat-button style="background-color: white; color: black; 
-      height: 40px; width: 270px; font-family: 'Geo', sans-serif !important; 
-      font-size: 10px;border: 2px inset black; margin-left: 3px;" class="mat-elevation-z8 button-hover"
-      routerLink="/course/angular">Angular X+</button>
+      <button mat-flat-button class="mat-elevation-z8 course_btn" routerLink="/course/angular">Angular X+</button>
 
-  </mat-toolbar>
-</div>
-
+    </mat-toolbar>
+  </div>
+  <router-outlet></router-outlet>
 </div>

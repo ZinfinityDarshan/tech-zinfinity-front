@@ -7,9 +7,12 @@ import { FacultyComponent } from './components/faculty/faculty.component';
 import { BatchesComponent } from './components/batches/batches.component';
 import { SocialComponent } from './components/social/social.component';
 import { GallaryComponent } from './components/gallary/gallary.component';
+import { FooterComponent } from './components/footer/footer.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { CoursePageComponent } from './components/course-page/course-page.component';
 
 const routes: Routes = [
-  {path:'', redirectTo: '/course/java', pathMatch:'full'},
+  {path:'courses', redirectTo: '/course/java', pathMatch:'full'},
   {path:'course', children:[
     {path:'', component:JavaCourseComponent},
     {path:'java', component:JavaCourseComponent},
@@ -19,7 +22,10 @@ const routes: Routes = [
   {path:'faculty', component:FacultyComponent},
   {path:'batches', component:BatchesComponent},
   {path:'socail', component:SocialComponent},
-  {path:'gallary', component:GallaryComponent}
+  {path:'gallary', component:GallaryComponent},
+  {path:'footer', component:FooterComponent},
+  {path:'', component:HomepageComponent},
+  {path:'course_page', component:CoursePageComponent}
   
 ];
 

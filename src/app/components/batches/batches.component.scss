@@ -1,10 +1,12 @@
 .cards-list {
     z-index: 0;
-    width: 100%;
+    width: 70%;
+    padding-top: 80px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     height: 100%;
+    margin: 0 auto;
   }
   
   .card {
@@ -44,6 +46,9 @@
   @media all and (max-width: 500px) {
     .card {
       width: 90%;
+    }
+    .cards-list{
+      width: 100%;
     }
   }
   

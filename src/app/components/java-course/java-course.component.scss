@@ -6,6 +6,14 @@ mat-chip{
   font-family: 'Geo', sans-serif;
 
 }
+
+@media all and (max-width: 1200px) {
+  .m-card{
+    width: 100% !important;
+  }
+}
+
+
 @media all and (max-width: 500px) {
   mat-chip {
     font-size: 10px;

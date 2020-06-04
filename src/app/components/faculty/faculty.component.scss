@@ -1,9 +1,9 @@
-// * {
-//      font-family: 'Geo', sans-serif !important;
-//     // height: 100vh;
-   
-    
-//   }
+.main_class{
+  width: 60%;
+  padding-top: 80px;
+  margin: 0 auto;
+
+}
 .name{
     color: black;
     font-size: 30px;
@@ -26,6 +26,7 @@
     
   }
   @media all and (max-width: 800px) {
+    
     .our-team {
    
       height: 350px;
@@ -33,6 +34,14 @@
       margin-bottom: 0px;
       
       
+    }
+  }
+  @media all and (max-width: 1200px) {
+    .main_class{
+      width: 70%;
+      padding-top: 80px;
+      margin: 0 auto;
+    
     }
   }
   
@@ -144,8 +153,9 @@
     padding-bottom: 0px;
      display: flex;
      flex-direction: row;
-     justify-content: start;
+     justify-content: center;
      z-index:100;
+     margin: 0 auto;
     //  background-color: red !important;
   }
   @media all and (max-width: 800px) {

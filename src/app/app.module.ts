@@ -18,6 +18,9 @@ import { AngularFirestoreModule } from "@angular/fire/firestore";
 import { AngularFireModule } from "@angular/fire/";
 import { AngularFireStorageModule } from "@angular/fire/storage";
 import { environment } from "../environments/environment";
+import { FooterComponent } from './components/footer/footer.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
+import { CoursePageComponent } from './components/course-page/course-page.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +33,10 @@ import { environment } from "../environments/environment";
     BatchesComponent,
     SocialComponent,
     GallaryComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent,
+    HomepageComponent,
+    CoursePageComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,55 @@
+:host ::ng-deep mat-raised-button{
+    height: 100%;
+    width: 100%;
+    font-family: 'Geo', sans-serif !important;
+}
+img{
+    padding-top:5px;
+    padding-bottom: 5px;
+}
+
+.profile-image{
+    height: 150px;
+    width: 150px;
+    border-radius: 35%;
+}
+.mobile{
+    padding-left: 20%;
+     padding-right:15%; 
+     margin-top: 15px;
+}
+.c-header{
+    position: fixed;
+    background-color:#212121;
+    width: 100%;
+    z-index: 100;
+      
+}
+
+@media only screen and (max-width: 600px) {
+   .mobile{
+      padding-left: 0px;
+      padding-right: 0px; 
+   }
+}
+.button-hover:hover{
+    background-color: black !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
+.btn:hover{
+    background-color:transparent !important;
+    color: white !important;
+    border: 2px solid white !important;
+}
+.float{
+    position:fixed;
+    
+    bottom:20px;
+    right:15px; 
+    z-index:100;
+
+}
+.custom-width {
+    width: 100%;
+}
