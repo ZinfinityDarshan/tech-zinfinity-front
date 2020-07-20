@@ -24,7 +24,7 @@
     "angularfire2": "^5.4.2",
     "bootstrap": "^4.4.1",
     "firebase": "^7.13.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ngx-wow": "^2.0.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
