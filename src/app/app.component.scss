@@ -3,15 +3,35 @@
     
 }
 .main_heading{
-    font-size: 35px;
+    font-size: 32px;
     cursor: pointer !important;
     text-decoration: underline;
+    padding: 20px;
+    
+
 }
 .nav-item{
     padding-left: 20px;
-    font-size:15px;
+    font-size:13px;
     cursor: pointer !important;
 }
+img{
+    height: 60px;
+}
 
+.nav-link{
+    font-size: 17px;
+    // font-weight: bold;
+}
+
+@media  (max-width: 350px){
+    .main_heading{
+        font-size: 28px !important;
+        
+    }
+    img{
+        height: 60px;
+    }
+  }
 
 

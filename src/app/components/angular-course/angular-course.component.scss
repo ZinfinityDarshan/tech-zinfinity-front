@@ -7,7 +7,7 @@ mat-chip{
     color: black !important;
     border: 1px solid black;
     font-size: large;
-    font-family: 'Geo', sans-serif;
+    font-family: 'Varela Round', sans-serif !important;
   
   }
   @media all and (max-width: 500px) {
@@ -43,7 +43,7 @@ mat-chip{
  .span-1{
       font-size: 22px;
       color: black;
-      font-family: 'Geo', sans-serif;
+      font-family: 'Varela Round', sans-serif !important;
 
    
  }
@@ -52,7 +52,7 @@ mat-chip{
 
     font-size: 20px;
     margin-top: 10px;
-     font-family: 'Geo', sans-serif;
+    font-family: 'Varela Round', sans-serif !important;
 }
 .section-2 {
  margin: 20px;  
